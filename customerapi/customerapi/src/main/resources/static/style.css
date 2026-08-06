@@ -1,0 +1,225 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#F7F4FA;
+    color:#4A4A4A;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    padding:50px;
+
+}
+
+.container{
+
+    width:100%;
+    max-width:1100px;
+
+    background:#FFFFFF;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:
+        0 8px 25px rgba(150,140,170,.15);
+
+}
+
+h1{
+
+    text-align:center;
+
+    color:#6B5B95;
+
+    margin-bottom:30px;
+
+    font-weight:600;
+
+}
+
+h2{
+
+    margin-top:25px;
+
+    margin-bottom:20px;
+
+    color:#7A6CA8;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:13px 15px;
+
+    margin-bottom:15px;
+
+    border:1px solid #DDD6F3;
+
+    border-radius:10px;
+
+    background:#FCFBFF;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+input:focus{
+
+    outline:none;
+
+    border-color:#B39DDB;
+
+    box-shadow:0 0 8px rgba(179,157,219,.4);
+
+}
+
+button{
+
+    background:#B39DDB;
+
+    color:white;
+
+    border:none;
+
+    padding:13px 24px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    background:#9F86D6;
+
+    transform:translateY(-2px);
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+thead{
+
+    background:#E8DEF8;
+
+}
+
+th{
+
+    padding:15px;
+
+    color:#5C4B7A;
+
+    text-align:left;
+
+}
+
+td{
+
+    padding:14px;
+
+    border-bottom:1px solid #EFEAF8;
+
+}
+
+tr:hover{
+
+    background:#FAF7FD;
+
+}
+
+.edit-btn{
+
+    background:#A5D6A7;
+
+    margin-right:8px;
+
+}
+
+.edit-btn:hover{
+
+    background:#81C784;
+
+}
+
+.delete-btn{
+
+    background:#EF9A9A;
+
+}
+
+.delete-btn:hover{
+
+    background:#E57373;
+
+}
+
+hr{
+
+    border:none;
+
+    height:1px;
+
+    background:#E9E3F6;
+
+    margin:30px 0;
+
+}
+
+@media(max-width:900px){
+
+    body{
+
+        padding:20px;
+
+    }
+
+    .container{
+
+        padding:20px;
+
+    }
+
+    table{
+
+        font-size:13px;
+
+    }
+
+    button{
+
+        margin-top:5px;
+
+    }
+
+}
